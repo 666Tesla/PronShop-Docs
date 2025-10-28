@@ -12,7 +12,7 @@
   "navigation": {
     "tabs": [
       {
-        "tab": "Guides",
+        "tab": "Detail",
         "groups": [
           {
             "group": "Doll",
@@ -30,6 +30,12 @@
           "anchor": "Home",
           "href": "https://docs.pronshop.com/index",
           "icon": "book-open-cover"
+        },
+        
+        {
+          "anchor": "Shop",
+          "href": "https://www.pronshop.com/index",
+          "icon": "shop"
         }
       ]
     }
@@ -46,24 +52,6 @@
         "label": "Support",
         "href": "mailto:pronshop@sina.com"
       }
-    ],
-    "primary": {
-      "type": "button",
-      "label": "PronShop",
-      "href": "https://www.pronshop.com/"
-    }
-  },
-
-  "contextual": {
-    "options": [
-      "copy",
-      "view",
-      "chatgpt",
-      "claude",
-      "perplexity",
-      "mcp",
-      "cursor",
-      "vscode"
     ]
   }
 }

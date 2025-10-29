@@ -3,19 +3,19 @@
   "theme": "mint",
   "name": "Pronshop Docs",
   "colors": {
-    "primary": "#16A34A",
-    "light": "#07C983",
-    "dark": "#15803D"
+    "primary": "#E27396",
+    "light": "#F2B5D4",
+    "dark": "#E27396"
   },
   "favicon": "/logo/favicon.svg",
 
   "navigation": {
     "tabs": [
       {
-        "tab": "Detail",
+        "tab": "Home",
         "groups": [
           {
-            "group": "Doll",
+            "group": "DOLL",
             "pages": [
               "doll/doll-1",
               "doll/doll-2"
@@ -30,12 +30,6 @@
           "anchor": "Home",
           "href": "https://docs.pronshop.com/",
           "icon": "newspaper"
-        },
-        
-        {
-          "anchor": "Shop",
-          "href": "https://www.pronshop.com/",
-          "icon": "shop"
         }
       ]
     }
@@ -47,10 +41,16 @@
   },
 
   "navbar": {
+    "links": [
+      {
+        "label": "Support",
+        "href": "mailto:pronshop@sina.com"
+      }
+    ],
     "primary": {
       "type": "button",
-      "label": "Email",
-      "href": "mailto:pronshop@sina.com"
+      "label": "PronShop",
+      "href": "https://www.pronshop.com/"
     }
   }
 }
